@@ -15,7 +15,7 @@ export default function Home() {
         {/* <div className='absolute top-6 bg-gradient-to-t from-black w-full h-full rounded-xl flex justify-center items-end text-white p-5'>
           <h1 className='text-2xl font-medium'>Mclaren 765lt </h1>
         </div> */}
-        <Image src={'/images/angled.png'} width={500} height={0} className='rounded-xl'/>
+        <Image alt='car' src={'/images/angled.png'} width={500} height={0} className='rounded-xl'/>
       </div>
 
       <div className="bg-[#292929] text-white w-full md:w-[500px] h-[200px] rounded-xl shadow-xl p-5">

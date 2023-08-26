@@ -1,6 +1,9 @@
+"use client"
+
+import Download from '@/components/Download';
 import { Progress } from 'antd';
-import { Carousel } from 'antd';
 import Image from 'next/image';
+
 
 export default function Home() {
   const goal = 382000;
@@ -25,6 +28,8 @@ export default function Home() {
         </div>
         <Progress percent={parseFloat(percentage)} strokeColor="white" showInfo={false}/>
       </div>
+
+      <Download />
     </div>
   );
 }
